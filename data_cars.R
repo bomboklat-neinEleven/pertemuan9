@@ -11,3 +11,6 @@ for (i in 1:n){
 }
 
 hist(mtcars$mpg)
+
+#korelasi wt dan mpg
+cor(mtcars$wt, mtcars$mpg)
